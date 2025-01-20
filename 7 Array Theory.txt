@@ -1,0 +1,10 @@
+Question 1: What is an array in JavaScript? How do you declare and initialize an array? 
+=> Array is and variable which can store a multiple value in single variable.
+   for define we use [] for arry
+   Syntax : let array = [1 , 2 , 3 , "Hello" , "Hii" , 54 , 55]
+
+Question 2: Explain the methods push(), pop(), shift(), and unshift() used in arrays. 
+=> In push() method we can add last index,
+   In pop() method we can remove last index, 
+   In shift() method we can remove first index, 
+   In unshift() method we can add first index.

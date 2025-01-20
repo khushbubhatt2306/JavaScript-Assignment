@@ -1,0 +1,32 @@
+Question 1: What are the different types of operators in JavaScript? Explain with examples. • Arithmetic operators • Assignment operators • Comparison operators • Logical operators
+=> Types of operators :- 1) Assignment operators
+			 -> var x = 5
+			    console.log(x)
+			 2) Arithmetic operators
+			 -> var a=10, b=20
+			    console.log("sum of value:- ",a+b)
+			    console.log("sum of value:- ",a-b)
+			    console.log("sum of value:- ",a%b)
+			 3) Conditional/Comparison operators
+			 -> let a=30, b=40
+			    let ab = (a>b)
+			    console.log(ab) 
+			 4) Combination/Logical/rational operators
+			 -> (&& , ! , ||)
+	                    let a = 10, b= 20
+			    let ab = (a>=10 && b<=20)			    
+			    let ab = (a>=10 || b<=20)
+			    let ab = !true			    
+			 5) ternari operators
+			 -> let a=30, b=40
+			    let ab = (a>b) ? a:b
+			    console.log(ab)
+			 6) increment/decrement operators
+			 -> let a = 10
+			    console.log(a++)
+			    console.log(--a)
+
+Question 2: What is the difference between == and === in JavaScript? 
+=> == check only value
+   === check both value and type 
+

@@ -1,0 +1,32 @@
+Question 1: Explain the different types of loops in JavaScript (for, while, do-while). Provide a basic example of each. 
+=> 1) for loop:-
+	for(i=1;i<=10;i++){
+		document.write(i)
+	}
+   2) neasted for loop:-
+	for(let i=1;i<=10;i++){
+		for(j=1;j<=10;i++){
+			document.write(i)
+		}
+		document.write("<br>")
+	}
+   3) while loop:-
+	let = 2;
+	while(i<=10){
+		console.log(i);
+		document.write(i,("<br>");
+		i++
+	}
+   4) do-while loop:-
+	let = 1;
+	do {
+		console.log(i);
+		document.write(i,("<br>");
+		i++
+	}
+	while(i<=10){
+	}
+
+Question 2: What is the difference between a while loop and a do-while loop?
+=> while loop is a entry control loop.
+   do while loop is a exit control loop also if condition will be false it will print atleast one time.

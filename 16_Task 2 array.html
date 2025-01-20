@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numbers = [10, 20, 30, 40, 50]
+
+        let sum = 0
+        for (let i = 0; i < numbers.length; i++) {
+            // sum = sum + numbers[i]      
+            sum += numbers[i]    
+        }
+
+        console.log("The sum of the array elements is:", sum);        
+        document.write("The sum of the array elements is:", sum);
+        
+        let number = [200, 10, 20, 30, 40, 50]
+        let sub = number[0]
+        for (let j = 1; j < number.length; j++) {        
+            
+            sub -= number[j]      
+        }
+        console.log("The sub of the array elements is:", sub);
+    </script>
+</body>
+</html>

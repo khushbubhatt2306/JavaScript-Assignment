@@ -1,0 +1,22 @@
+Question 1: What is error handling in JavaScript? Explain the try, catch, and finally blocks with an example.
+=>Error handling in JavaScript is a way to manage and respond to errors in your code without crashing the entire application. It allows you to catch errors, handle them gracefully, and optionally clean up resources or perform follow-up actions.
+- The try block tries to run the code. In this case, it causes an error because Infinity does not have a toFixed method.
+- The catch block handles the error and logs a friendly message.
+- The finally block runs no matter what happens (error or no error).
+example:
+try {
+    // Code that may throw an error
+    const num = 10;
+    console.log(num.toUpperCase()); // This will throw an error
+} catch (error) {
+    // Handle the error
+    console.log("An error occurred:", error.message);
+} finally {
+    // Code that always runs
+    console.log("This block always executes.");
+}
+
+
+
+Question 2: Why is error handling important in JavaScript applications? 
+=>Error handling in JavaScript is important because it helps your app deal with problems without crashing. It ensures the app keeps running smoothly, shows helpful error messages to users, and makes it easier for developers to find and fix bugs.

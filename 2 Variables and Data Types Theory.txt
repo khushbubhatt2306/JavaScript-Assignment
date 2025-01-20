@@ -1,0 +1,48 @@
+Question 1: What are variables in JavaScript? How do you declare a variable using var, let, and const? 
+=> Variables is store a single or mulitiple values. three types of variables 1)var , 2) let , 3) const
+var x = 10;
+console.log("X value -> ",x)
+document.write("X value-> ",x)
+let y = 20;
+console.log("Y value -> ",y)
+document.write("Y value-> ",y)
+const z = 30; 
+console.log("Z value -> ",z)
+document.write("Z value-> ",z)
+
+Question 2: Explain the different data types in JavaScript. Provide examples for each. 
+=> There is two types of data types one is primitive data type which store single value and second is non-primitive data type which store multiple value.
+primitive data type -> Number
+			var x = 10;
+			console.log(x)
+			console.log(typeof(x))
+		    -> String
+			var str = "Hello"
+			console.log(str)
+			console.log(typeof(str))
+                    -> Boolen
+			var data = true
+			console.log(data)
+			console.log(typeof(data))
+		    -> Null
+			var data1 = null
+			console.log(data1)
+			console.log(typeof(data1))
+ 		    -> Undifined
+			var y;
+			console.log(y)
+			console.log(typeof(y))
+		    -> Bignit
+			var ab = BigInt(12345678941216897484515)
+			console.log(ab)
+			console.log(typeof(ab))			
+		    -> Symbole
+			var abc = Symbol("gfxtysfxvgshv@")	
+			console.log(abc)
+			console.log(typeof(abc))
+Non-Primitive data type -> Array
+	     		-> Object
+			
+Question 3: What is the difference between undefined and null in JavaScript
+=> undefined means a variable is declared but value has not given.
+=> null means value is empty in variable.

@@ -1,0 +1,19 @@
+Question 1: What are functions in JavaScript? Explain the syntax for declaring and calling a function. 
+=> Function is a block of code. there is a two types of function.
+   1) predefined
+   2) user defined:- user defined has two types 1) With Parameters 2) Without Parameters
+   Syntax : function finction_name(){
+		add code here..
+	    }
+
+Question 2: What is the difference between a function declaration and a function expression? 
+=> unction declaration is defined with the function keyword and works anywhere in the code, while a function expression is stored in a variable and works only after it's defined.
+
+Question 3: Discuss the concept of parameters and return values in functions.
+=> Parameters let you pass input values into a function, and return values let the function send a result back to where it was called.
+
+
+
+
+
+

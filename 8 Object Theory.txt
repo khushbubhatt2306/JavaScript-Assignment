@@ -1,0 +1,7 @@
+Question 1: What is an object in JavaScript? How are objects different from arrays? 
+=> Object is and variable which can store a multiple value in single variable. An object in a JavaScript is a collection of key and value.
+array uses numerical index to store values also array accessed via numerical index.
+object uses key and value pairto store the values also object accessed via keys.
+
+Question 2: Explain how to access and update object properties using dot notation and bracket notation. 
+=> You can access and update object properties using dot notation (object.property) for simple keys, and bracket notation (object["property"]) for keys with spaces, special characters, or dynamic values.
